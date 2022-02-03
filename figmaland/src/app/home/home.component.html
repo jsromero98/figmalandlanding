@@ -3,7 +3,7 @@
     <div class="container mx-auto">
         <div class="flex">
             <!-- Buttons -->
-            <div class="w-1/3 flex flex justify-end items-center space-x-5 ml-9 pl-9">
+            <div class="hidden md:flex md:w-1/3 justify-end md:items-center space-x-5 ml-9 pl-9">
                 <a
                     href="/"
                     class="px-2 text-white"
@@ -31,13 +31,17 @@
                 >
             </div>
             <!-- Logo -->
-            <div class="w-1/3">
+            <div class="w-2/3 md:w-1/3">
                 <a href="#" class="flex justify-center items-center py-4 px-2">
                     <img src="\assets\Rectangle 4.png" alt="Logo" class="h-15 w-30" />
                 </a>
             </div>
+            <!-- pop menu -->
+            <div class="flex md:hidden justify-end items-center w-1/3 ml-9 mt-4 mr-6">
+                <img src="\assets\Vector (14).png" class="" />
+            </div>
             <!-- Social -->
-            <div class="w-1/3 flex justify-center items-center space-x-5">
+            <div class="hidden md:flex w-1/3 justify-center items-center space-x-5">
                 <a href="#" class="py-4 px-2">
                     <img src="\assets\Vector.png" class="h-5 w-30 mr-2" />
                 </a>
@@ -78,8 +82,11 @@
         <div class="flex justify-center m-2 p-2">
             <p class="text-xl text-center">Most calendars are designed for teams. Slate is designed for freelancers.</p>
         </div>
-        <div class="flex justify-center">
-            <div class="w-1/5 m-2 p-2">
+        <div class="flex md:hidden justify-center">
+            <video width="600" height="400" poster="\assets\screen (1).png" controls></video>
+        </div>
+        <div class="grid md:flex md:justify-center">
+            <div class="w-full md:w-1/5 m-2 p-2">
                 <div class="flex-col w-full">
                     <div class="flex justify-center m-2 p-2">
                         <img src="\assets\Vector (3).png" class="h-10 w-30 m-2" />
@@ -92,7 +99,7 @@
                     </div>
                 </div>   
             </div>
-            <div class="w-1/5 m-2 p-2">
+            <div class="w-full md:w-1/5 m-2 p-2">
                 <div class="flex-col w-full">
                     <div class="flex justify-center m-2 p-2">
                         <img src="\assets\Vector (5).png" class="h-10 w-30 m-2" />
@@ -105,7 +112,7 @@
                     </div>
                 </div> 
             </div>
-            <div class="w-1/5 m-2 p-2">
+            <div class="w-full md:w-1/5 m-2 p-2">
                 <div class="flex-col w-full">
                     <div class="flex justify-center m-2 p-2">
                         <img src="\assets\Vector (4).png" class="h-10 w-30 m-2" />
@@ -119,7 +126,7 @@
                 </div> 
             </div>
         </div>    
-        <div class="flex justify-center">
+        <div class="hidden md:flex justify-center">
             <video width="1000" height="800" poster="\assets\screen.png" controls></video>
         </div>
     </div>
@@ -134,21 +141,21 @@
         <div class="flex justify-center my-9">
             <p class="text-xl text-center">Most calendars are designed for teams. Slate is designed for freelancers.</p>
         </div>
-        <div class="flex justify-center mx-auto">
-            <div class="w-2/5 m-2 p-2 mx-auto">
+        <div class="grid md:flex md:justify-center md:mx-auto">
+            <div class="w-full md:w-2/5 m-2 p-2 mx-auto">
                 <div class="m-2 rounded overflow-hidden shadow-lg w-5/6 mx-auto h-full">
                     <h3 class="text-lg text-center m-3 p-3">Contact us</h3>
                     <input class="rounded-full block w-4/5 mx-auto m-3 p-3 bg-gray-100 border-gray-200" placeholder="Your name">
                     <input class="rounded-full block w-4/5 mx-auto m-3 p-3 bg-gray-100 border-gray-200" placeholder="Your email">
-                    <textarea class="block resize-none w-4/5 h-2/5 mx-auto m-3 p-3 bg-gray-100 border-gray-200" placeholder="Your message">
+                    <textarea class="h-1/4 md:h-2/6 block resize-none w-4/5 mx-auto m-3 p-3 bg-gray-100 border-gray-200" placeholder="Your message">
                     </textarea>
                     <button class="rounded-full bg-blue-500 text-white px-5 p-2 m-9">Send</button>
                 </div>
             </div>
-            <div class="w-3/5 m-2 p-2">
-                <div class="w-4/5 mx-auto">
-                    <div class="flex justify-center">
-                        <div class="w-1/3">
+            <div class="w-full md:w-3/5 m-2 p-2">
+                <div class="w-full md:w-4/5 mx-auto">
+                    <div class="grid md:flex md:justify-center">
+                        <div class="w-full md:w-1/3">
                             <div class="flex-col w-full">
                                 <div class="flex justify-center">
                                     <img src="\assets\Vector (6).png" class="h-5 w-30 m-2" />
@@ -158,7 +165,7 @@
                                 </div>
                             </div>   
                         </div>
-                        <div class="w-1/3">
+                        <div class="w-full md:w-1/3">
                             <div class="flex-col w-full">
                                 <div class="flex justify-center">
                                     <img src="\assets\Vector (7).png" class="h-5 w-30 m-2" />
@@ -168,7 +175,7 @@
                                 </div>
                             </div> 
                         </div>
-                        <div class="w-1/3">
+                        <div class="w-full md:w-1/3">
                             <div class="flex-col w-full">
                                 <div class="flex justify-center">
                                     <img src="\assets\Vector (8).png" class="h-5 w-30 m-2" />
@@ -181,7 +188,7 @@
                     </div>  
                 </div>
                 <div>
-                    <div class="flex justify-center">
+                    <div class="hidden md:flex justify-center">
                         <img src="\assets\@ map screen.png" class="m-2" />
                     </div>
                 </div>
@@ -205,38 +212,38 @@
  <!-- Footer -->
 
 <footer>
-    <div class="bg-gray-800 text-white flex justify-center mx-auto space-x-9 h-96">
-        <div class="w-1/7 m-6 p-6">
+    <div class="grid md:flex bg-gray-800 text-white md:justify-center md:mx-auto space-x-9 md:h-96">
+        <div class="md:w-1/7 m-6 p-6">
             <div class="flex flex-col w-full justify-center space-y-5">
-                <h5 class="mt-5 pt-5 font-bold">Pages</h5>
-                <a>Home</a>
-                <a>Product</a>
-                <a>Pricing</a>
-                <a>About</a>
-                <a>Contact</a>
+                <h5 class="mt-5 pt-5 font-bold text-center">Pages</h5>
+                <a class="text-center">Home</a>
+                <a class="text-center">Product</a>
+                <a class="text-center">Pricing</a>
+                <a class="text-center">About</a>
+                <a class="text-center">Contact</a>
             </div>
         </div>
-        <div class="w-1/7 m-6 p-6">
+        <div class="md:w-1/7 m-6 p-6">
             <div class="flex flex-col w-full justify-center space-y-5">
-                <h5 class="mt-5 pt-5 font-bold">Tomothy</h5>
-                <a>Eleanor Edwards</a>
-                <a>Ted Robertson</a>
-                <a>Annette Russell</a>
-                <a>Jennie Mckinney</a>
-                <a>Gloria Richards</a>
+                <h5 class="mt-5 pt-5 font-bold text-center">Tomothy</h5>
+                <a class="text-center">Eleanor Edwards</a>
+                <a class="text-center">Ted Robertson</a>
+                <a class="text-center">Annette Russell</a>
+                <a class="text-center">Jennie Mckinney</a>
+                <a class="text-center">Gloria Richards</a>
             </div>
         </div>
-        <div class="w-1/7 m-6 p-6">
+        <div class="md:w-1/7 m-6 p-6">
             <div class="flex flex-col w-full justify-center space-y-5">
-                <h5 class="mt-5 pt-5 font-bold">Jane Black</h5>
-                <a>Philip Jones</a>
-                <a>Product</a>
-                <a>Colleen Russell</a>
-                <a>Marvin Hawkins</a>
-                <a>Bruce Simmons</a>
+                <h5 class="mt-5 pt-5 font-bold text-center">Jane Black</h5>
+                <a class="text-center">Philip Jones</a>
+                <a class="text-center">Product</a>
+                <a class="text-center">Colleen Russell</a>
+                <a class="text-center">Marvin Hawkins</a>
+                <a class="text-center">Bruce Simmons</a>
             </div>
         </div>
-        <div class="w-2/7 m-6 p-6">
+        <div class="md:w-2/7 m-6 p-6">
             <div class="flex flex-col w-full justify-center mt-5 pt-5 ">
                 <div class="flex  m-2 p-2">
                     <img src="\assets\Vector (12).png" class="h-5 w-30 mr-2" />
